@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: herrturtur/podinfo
-      tag: dev-hv9zguma
+      tag: dev-ar8gjobr
     replicaCount: 1
     hpa:
       enabled: false
