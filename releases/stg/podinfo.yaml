@@ -10,16 +10,16 @@ metadata:
 spec:
   releaseName: podinfo-rc
   chart:
-    git: git@github.com:fluxcd/helm-operator-get-started
+    git: git@github.com:pophey/helm-operator-get-started
     path: charts/podinfo
     ref: master
   values:
     image:
-      repository: stefanprodan/podinfo
+      repository: herrturtur/podinfo
       tag: stg-9ij63o4c
     replicaCount: 2
     hpa:
       enabled: true
       maxReplicas: 10
       cpu: 50
-      memory: 256Mi
+      memory: 128Mi
